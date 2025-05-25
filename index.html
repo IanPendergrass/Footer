@@ -16,7 +16,7 @@
                 <p>Here is the footer content.</p>
             </div>
         </main>
-        <footer class="fixed_footer"></footer>
+        <footer class="fixed_footer">
         <div class="content">   
             <div class="content__inner">
                 <div class="nav">
@@ -48,5 +48,16 @@
                 </div>
             </div>
         </div>
+         </footer>
+            <script>
+                gsap.from(".fixed_footer", {
+                y: -500,
+                scrollTrigger: {
+                trigger: ".content",
+                start: "bottom bottom",
+                scrub: true,
+            },
+      });
+    </script>
     </body>
 </html>
