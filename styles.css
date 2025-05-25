@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+html,
+ body {
+    background-color: azure;
+}
+
+.content_inner {
+    width: 90%;
+    margin: 40px 40px 420px 40px;
+    padding: 100px;
+}
+
+.copy {
+    background: #e9e6dc;
+    border: 1px solid #d0cfcf;
+    border-radius: 40px;
+}
